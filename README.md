@@ -1,4 +1,4 @@
-# -Project01-SQL Server Migration Project
+# Project01-SQL Server Migration Project
 
 ## Overview
 

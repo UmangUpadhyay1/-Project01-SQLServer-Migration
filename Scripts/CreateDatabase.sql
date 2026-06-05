@@ -1,1 +1,6 @@
 -- ERPDB Creation Script
+CREATE DATABASE ERPDB;
+GO
+
+USE ERPDB;
+GO

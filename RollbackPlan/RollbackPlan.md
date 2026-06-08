@@ -52,7 +52,7 @@ Notify stakeholders that rollback has been completed.
 
 ### Database Status
 
-```sql
+sql
 SELECT name,state_desc
 FROM sys.databases
 WHERE name='ERPDB';

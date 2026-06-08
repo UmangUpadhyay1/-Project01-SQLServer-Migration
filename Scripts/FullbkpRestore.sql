@@ -1,0 +1,13 @@
+RESTORE DATABASE ERPDB_migrated
+FROM DISK = 'D:\Program Files\Microsoft SQL Server\MSSQL17.MSSQLSERVER\MSSQL\Backup\ERPDB_FULL.bak'
+WITH
+MOVE 'ERPDB'
+TO 'D:\Program Files\Microsoft SQL Server\MSSQL17.SQL2025TARGET\MSSQL\Data\ERPDB.mdf',
+
+MOVE 'ERPDB_log'
+TO 'D:\Program Files\Microsoft SQL Server\MSSQL17.SQL2025TARGET\MSSQL\Log\ERPDB_log.ldf',
+
+NORECOVERY,
+REPLACE,
+STATS = 5;
+GO
